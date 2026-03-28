@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "name": "Generate English lesson",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "grammar_questions": [],
+        "grammar_practice": [],
+        "writing_task": {},
+        "reading": {}
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}

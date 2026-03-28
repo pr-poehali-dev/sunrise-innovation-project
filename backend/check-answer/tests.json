@@ -1,0 +1,20 @@
+{
+  "tests": [
+    {
+      "name": "Check writing answer",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "text": "I wake up at 7 every morning. I eat breakfast and drink coffee. Then I go to work by bus.",
+        "topic": "Describe your typical morning routine."
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "score": 0,
+        "level": "",
+        "feedback": ""
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
