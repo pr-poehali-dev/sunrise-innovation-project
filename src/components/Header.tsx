@@ -9,7 +9,7 @@ export function Header() {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <a href="/" className="font-serif text-2xl tracking-wide text-foreground">
-            Wabi
+            PromptOS
           </a>
 
           {/* Desktop Navigation */}
@@ -18,13 +18,13 @@ export function Header() {
               href="#philosophy"
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
             >
-              Философия
+              Подход
             </a>
             <a
               href="#services"
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
             >
-              Услуги
+              Возможности
             </a>
             <a
               href="#process"
@@ -68,14 +68,14 @@ export function Header() {
               onClick={() => setIsMenuOpen(false)}
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
             >
-              Философия
+              Подход
             </a>
             <a
               href="#services"
               onClick={() => setIsMenuOpen(false)}
               className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
             >
-              Услуги
+              Возможности
             </a>
             <a
               href="#process"

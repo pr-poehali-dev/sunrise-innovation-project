@@ -39,8 +39,8 @@ export function Testimonial() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Работа с Wabi была похожа на медитацию. Они поняли, что наш дом должен поддерживать
-          благополучие семьи, а не просто красиво выглядеть. Результат — пространство, которое наконец ощущается как наше.
+          Раньше я тратил часы на формулировку запросов. Теперь система сама понимает, что мне нужно —
+          достаточно набросать идею. Результаты стали точнее, а времени уходит в десять раз меньше.
         </blockquote>
 
         {/* Attribution */}
@@ -49,8 +49,8 @@ export function Testimonial() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <p className="text-sm tracking-widest uppercase text-primary-foreground/80">Анна и Михаил Петровы</p>
-          <p className="text-sm text-primary-foreground/60 mt-1">Резиденция в Москве</p>
+          <p className="text-sm tracking-widests uppercase text-primary-foreground/80">Алексей Громов</p>
+          <p className="text-sm text-primary-foreground/60 mt-1">Контент-стратег, пользователь системы</p>
         </div>
       </div>
     </section>
